@@ -1,0 +1,532 @@
+@media only screen and (max-width: 250px) {
+  header {
+    height: 500px;
+  }
+  hgroup > img {
+    width: 170px;
+  }
+  header>hgroup>.name {
+    font-size: 2em;
+  }
+  hgroup > .position {
+    font-size: 1.2em;
+  }
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 1.3em;
+  }
+  .titleDetail {
+    width: 170px;
+  }
+  #aboutMe {
+    padding: 20px;
+  }
+  #textAboutMe {
+  padding: 0;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 130px;
+  }
+  .webpageBig, .webpageSmall {
+    width: 200px;
+  }
+  #portfolio ul {
+    padding: 0;
+    margin: 30px 0;
+  }
+  .quotText {
+    font-size: 1.7em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #contact {
+  margin-top: 50px;
+  }
+  #git2, #linked {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 320px) {
+  header {
+    height: 500px;
+  }
+  hgroup > img {
+    width: 170px;
+  }
+  header>hgroup>.name {
+    font-size: 2em;
+  }
+  hgroup > .position {
+    font-size: 1.2em;
+  }
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 1.3em;
+  }
+  .titleDetail {
+    width: 170px;
+  }
+  #aboutMe {
+    padding: 20px;
+  }
+  #textAboutMe {
+  padding: 0;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 130px;
+  }
+  .webpageBig, .webpageSmall {
+    width: 220px;
+  }
+  #portfolio ul {
+    padding: 0;
+    margin: 30px 0;
+  }
+  .quotText {
+    font-size: 1.7em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #contact {
+  margin-top: 50px;
+  }
+  #git2, #linked {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 397px) {
+  header {
+    height: 500px;
+  }
+  hgroup > img {
+    width: 170px;
+  }
+  header>hgroup>.name {
+    font-size: 2.1em;
+  }
+  hgroup > .position {
+    font-size: 1.2em;
+  }
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 1.6em;
+  }
+  .titleDetail {
+    width: 230px;
+  }
+  #aboutMe {
+    padding: 20px;
+  }
+  #textAboutMe {
+  padding: 0;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 150px;
+  }
+  .webpageBig, .webpageSmall {
+    width: 250px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 1.7em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #contact {
+  margin-top: 50px;
+  }
+  #git2, #linked {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 397px) and (max-width: 480px) {
+  header {
+    height: 500px;
+  }
+  hgroup > img {
+    width: 200px;
+  }
+  header>hgroup>.name {
+    font-size: 2.5em;
+  }
+  hgroup > .position {
+    font-size: 1.5em;
+  }
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  .titleDetail {
+    width: 300px;
+  }
+  #aboutMe {
+    padding: 30px;
+  }
+  #textAboutMe {
+  padding: 0;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 180px;
+  }
+  .webpageBig {
+    width: 360px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #contact {
+  margin-top: 50px;
+  }
+  #git2, #linked {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  header {
+    height: 600px;
+  }
+  hgroup > img {
+    width: 220px;
+  }
+  header>hgroup>.name {
+    font-size: 2.7em;
+  }
+  hgroup > .position {
+    font-size: 1.7em;
+  }
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  .titleDetail {
+    width: 300px;
+  }
+  #aboutMe {
+    padding: 30px;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 120px;
+  }
+  .webpageBig {
+    width: 360px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #contact {
+  margin-top: 50px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 640px) {
+  header {
+    height: 600px;
+  }
+  hgroup > img {
+    width: 220px;
+  }
+  header>hgroup>.name {
+    font-size: 2.7em;
+  }
+  hgroup > .position {
+    font-size: 1.7em;
+  }
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  #aboutMe {
+    padding: 40px;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 120px;
+  }
+  .webpageBig {
+    width: 360px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 720px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  #aboutMe {
+    padding: 40px;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .pic {
+    width: 140px;
+  }
+  .webpageSmall {
+    width: 540px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 768px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  #aboutMe {
+    padding: 40px;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .webpageSmall {
+    width: 540px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  #aboutMe {
+    padding: 40px;
+  }
+  #technologies {
+    background-image: none;
+  }
+  .webpageSmall {
+    width: 540px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 960px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  .webpageSmall {
+    width: 540px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  .webpageSmall {
+    width: 540px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #pen {
+    display: none;
+  }
+  #contactForm {
+    margin-top: 60px;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  .webpageSmall {
+    width: 540px;
+  }
+  #portfolio ul {
+    padding: 0;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+  .mainHeader, .mainHeader2, .mySkills {
+    font-size: 2em;
+  }
+  .quotText {
+    font-size: 2.2em;
+  }
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1400px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1440px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1680px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1680px) and (max-width: 1920px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+  #linked2 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  #linked2 {
+    display: none;
+  }
+}

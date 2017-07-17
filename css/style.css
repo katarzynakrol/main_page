@@ -1,0 +1,332 @@
+/* FONT: TYPE, COLOR AND SIZE */
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.name,
+.position,
+.mainHeader,
+#contactForm label {
+  text-transform: uppercase;
+}
+
+#main-nav,
+hgroup>.position,
+.mainHeader,
+#portfolio,
+#technologies,
+#aboutMe,
+#contact,
+footer {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header>hgroup>.name {
+  font-family: 'Archivo Black', sans-serif;
+  color: #fff;
+  font-size: 3.5em;
+}
+
+header>hgroup>.position {
+  color: #fff
+}
+
+.mainHeader,
+.mySkills {
+  color: #a3bdbc;
+}
+
+.mySkills {
+  font-family: 'Poiret One';
+  font-weight: bold;
+}
+
+
+/* NAVBAR */
+
+#main-nav {
+  font-size: 1.2em;
+  margin-bottom: 0;
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+#logo {
+  float: left;
+}
+
+
+/* SECTION HEADER */
+
+header {
+  background-image: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+header>hgroup {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  position: relative;
+  z-index: 1;
+}
+
+header>hgroup:hover {
+  -o-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+hgroup>img {
+  border-radius: 50%;
+  width: 250px;
+}
+
+
+/* SECTION ABOUT ME */
+
+#aboutMe {
+  padding: 60px;
+}
+
+#textAboutMe {
+  padding: 20px;
+}
+
+#cv {
+  padding: 7px 18px;
+  font-size: 1.2em;
+  border-radius: 0px;
+}
+
+button#cv:hover,
+img.top:hover {
+  opacity: 0.70;
+  filter: alpha(opacity=70);
+}
+
+
+/* SECTION MY SKILLS */
+
+#technologies {
+  background-image: url(../images/greyBack.png);
+  box-shadow: 0 12px 20px -10px rgb(247, 247, 247, 0.9);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#skills,
+#skills2 {
+  margin-bottom: 30px;
+}
+
+#skills3 {
+  margin-bottom: 60px;
+}
+
+#skills3>img {
+  filter: grayscale(100%);
+}
+
+.thu.thumbnail {
+  position: relative;
+  display: inline-table;
+  padding: 0;
+  border: none;
+  margin: 0;
+  background: none;
+}
+
+.thu.thumbnail>.caption {
+  position: absolute;
+  background: rgba(140, 172, 171, 0.92);
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  display: none;
+  color: #fff;
+  z-index: 2;
+}
+
+
+/* SECTION PORTFOLIO */
+
+#portfolio h2 {
+  margin-top: 50px;
+}
+
+#portfolio ul {
+  margin: 40px 0 30px 0;
+}
+
+ul>li {
+  list-style: none;
+}
+
+.thu.thumbnail2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.thu.thumbnail2>.caption2 {
+  position: absolute;
+  background: transparent;
+  display: none;
+  z-index: 2;
+  max-width: 50%;
+}
+
+.thu.thumbnail2>.caption2>a>img {
+  padding: 10px;
+  width: 60px;
+}
+
+.webpageBig {
+  width: 540px;
+  border: 3px solid #EAEAEA;
+}
+
+.webpageSmall {
+  width: 360px;
+  border: 2px solid #EAEAEA;
+}
+
+
+/* SENTENCE ABOUT ME */
+
+#quot {
+  background-image: url(../images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.quotText {
+  color: #fff;
+  font-family: 'Poiret One', cursive;
+  font-size: 2.7em;
+}
+
+
+/* SECTION CONTACT */
+
+#contact {
+  margin-top: 70px;
+}
+
+#contactForm>form>.form-group>#nameField,
+#contactForm>form>.form-group>#emailField,
+#contactForm>form>.form-group>#descField {
+  border: none;
+  border-radius: 0;
+  border-top: 1.5px solid #8cacab;
+}
+
+#contactForm>form>.btn-primary.btn {
+  background-color: #8cacab;
+  border-color: #8cacab;
+  opacity: 0.8;
+}
+
+#contactForm>form>.btn-primary.btn:hover {
+  opacity: 0.70;
+  filter: alpha(opacity=70);
+}
+
+#contactForm>form>.btn-default.btn,
+#contactForm>form>.btn-primary.btn {
+  border-radius: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  flex-direction: row;
+  color: #58595b;
+  margin-top: 30px;
+}
+
+#git,
+#linked {
+  padding-left: 20px;
+}
+
+
+/* DECORATION: UNDERLINE THE HEADLINES */
+
+.titleDetail {
+  color: #a3bdbc;
+  position: relative;
+  display: block;
+  width: 400px;
+  float: none;
+  margin: auto;
+}
+
+.titleDetail span {
+  display: inline-block;
+  padding: 0 1.2em;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  width: 50px;
+}
+
+.titleDetail::before {
+  content: "";
+  border-bottom: 1px solid #a3bdbc;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 0;
+}
+
+
+/* TOP BUTTON*/
+
+.top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  opacity: 0.8;
+  width: 50px;
+}
