@@ -14,7 +14,7 @@ $(document).ready(function() {
         //hover over
         function() {
             $(this).find('.caption2').slideDown(timeDelay); //.fadeIn(250)
-            $(this).find('.webpageBig, .webpageSmall').animate({
+            $(this).find('.webpage').animate({
                 opacity: 0.4,
                 duration: timeDelay
             });
@@ -22,7 +22,7 @@ $(document).ready(function() {
         // hover out
         function() {
             $(this).find('.caption2').slideUp(timeDelay); //.fadeOut(205)
-            $(this).find('.webpageBig, .webpageSmall').animate({
+            $(this).find('.webpage').animate({
                 opacity: 1,
                 duration: timeDelay
             });

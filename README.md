@@ -13,7 +13,7 @@ Użyte technologie
 - Bootstrap,
 - jQuery:
 
-    **a)** fixedMenu (menu przy przewijaniu strony 'przykleja się' do głórnej krawędzi przeglądarki),
+    **a)** fixedMenu (menu przy przewijaniu strony 'przykleja się' do górnej krawędzi przeglądarki),
 
     **b)** hoverEffect (po najechaniu kursorem myszy na dany element, pojawia się ramka z tekstem),
 

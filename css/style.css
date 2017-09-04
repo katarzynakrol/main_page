@@ -1,7 +1,7 @@
 /* FONT: TYPE, COLOR AND SIZE */
 
-.row {
-  margin: 0;
+.row, ul {
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -29,7 +29,7 @@ hgroup>.position,
 #aboutMe,
 #contact,
 footer {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Scope One', serif;
 }
 
 header>hgroup>.name {
@@ -102,7 +102,7 @@ header>hgroup:hover {
 
 hgroup>img {
   border-radius: 50%;
-  width: 250px;
+  width: 290px;
 }
 
 
@@ -146,10 +146,6 @@ img.top:hover {
 
 #skills3 {
   margin-bottom: 60px;
-}
-
-#skills3>img {
-  filter: grayscale(100%);
 }
 
 .thu.thumbnail {
@@ -208,12 +204,11 @@ ul>li {
   width: 60px;
 }
 
-.webpageBig {
-  width: 540px;
-  border: 3px solid #EAEAEA;
+.thu.thumbnail2>.caption2>a>img:hover {
+  opacity: 0.8;
 }
 
-.webpageSmall {
+.webpage {
   width: 360px;
   border: 2px solid #EAEAEA;
 }

@@ -29,7 +29,7 @@
   .pic {
     width: 130px;
   }
-  .webpageBig, .webpageSmall {
+  .webpage {
     width: 200px;
   }
   #portfolio ul {
@@ -84,7 +84,7 @@
   .pic {
     width: 130px;
   }
-  .webpageBig, .webpageSmall {
+  .webpage {
     width: 220px;
   }
   #portfolio ul {
@@ -139,7 +139,7 @@
   .pic {
     width: 150px;
   }
-  .webpageBig, .webpageSmall {
+  .webpage {
     width: 250px;
   }
   #portfolio ul {
@@ -193,7 +193,7 @@
   .pic {
     width: 180px;
   }
-  .webpageBig {
+  .webpage {
     width: 360px;
   }
   #portfolio ul {
@@ -244,7 +244,7 @@
   .pic {
     width: 120px;
   }
-  .webpageBig {
+  .webpage {
     width: 360px;
   }
   #portfolio ul {
@@ -292,7 +292,7 @@
   .pic {
     width: 120px;
   }
-  .webpageBig {
+  .webpage {
     width: 360px;
   }
   #portfolio ul {
@@ -325,7 +325,7 @@
   .pic {
     width: 140px;
   }
-  .webpageSmall {
+  .webpage {
     width: 540px;
   }
   #portfolio ul {
@@ -355,7 +355,7 @@
   #technologies {
     background-image: none;
   }
-  .webpageSmall {
+  .webpage {
     width: 540px;
   }
   #portfolio ul {
@@ -385,7 +385,7 @@
   #technologies {
     background-image: none;
   }
-  .webpageSmall {
+  .webpage {
     width: 540px;
   }
   #portfolio ul {
@@ -409,7 +409,7 @@
   .mainHeader, .mainHeader2, .mySkills {
     font-size: 2em;
   }
-  .webpageSmall {
+  .webpage {
     width: 540px;
   }
   #portfolio ul {
@@ -433,8 +433,8 @@
   .mainHeader, .mainHeader2, .mySkills {
     font-size: 2em;
   }
-  .webpageSmall {
-    width: 540px;
+  .webpage {
+    width: 600px;
   }
   #portfolio ul {
     padding: 0;
@@ -457,8 +457,8 @@
   .mainHeader, .mainHeader2, .mySkills {
     font-size: 2em;
   }
-  .webpageSmall {
-    width: 540px;
+  .webpage {
+    width: 600px;
   }
   #portfolio ul {
     padding: 0;
