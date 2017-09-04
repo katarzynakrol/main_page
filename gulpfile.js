@@ -73,7 +73,7 @@ gulp.task('cleanJs', function () {
     return del('./dist/*.js');
 });
 
-// Builds the frontend by running clean, js and css tasks in sequence
+// Builds the frontend by running clean, minJs and minCss tasks in sequence
 gulp.task('build', ['cleanAll', 'minJs', 'minCss']);
 
 // Builds the frontend, connects to the server and watches for changes
