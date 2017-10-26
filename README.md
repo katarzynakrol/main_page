@@ -19,7 +19,7 @@ Użyte technologie
 
     **c)** topButton (przycisk do płynnego przewijania na górę strony),
 
-    **d)** smoothscroll (płynne przewijanie strony do wybranego elementu interfejsu WWW, autor: Ariel Flesler).
+    **d)** smoothscroll (płynne przewijanie strony do wybranego elementu interfejsu WWW).
 
 Zastosowanie Gulpa w projekcie
 -------------------
