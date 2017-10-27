@@ -26,7 +26,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <img src="images/logo2.png" alt="Katarzyna Król" id="logo">
+        <img src="images/logo2.png" alt="Logo strony">
       </div>
       <nav class="navbar-collapse bs-navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -69,16 +69,16 @@
   </header>
   <!-- End of header section -->
   <!-- About me -->
-  <div class="container text-center">
+  <article class="container text-center">
     <div class="row" id="aboutMe">
       <div class="col-md-12">
         <h2 class="mainHeader">
           kilka słów o mnie
         </h2>
         <span class="titleDetail">
-            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
         </span>
-        <p id="textAboutMe">
+        <p class="textAboutMe">
           W listopadzie 2016 roku w sposób całkowicie przypadkowy rozpoczęła się moja przygoda z technologiami webowymi. Początkowo
           zafascynowana możliwościami HTMLa oraz CSSa z wypiekami na twarzy zgłębiałam wiedzę tych dwóch języków, jednak
           niedługo potem przekonałam się, że była to zaledwie iskra, która wznieciła moje wielkie zainteresowanie światem
@@ -87,28 +87,28 @@
           <br> Jako niestrudzony samouk codziennie zgłębiam wiedzę oraz poszukuję aktualnych materiałów, dzięki którym nieustannie
           uczę się oraz rozwijam swoje umiejętności. Jednak moim marzeniem jest przerodzić moją pasję w swoją przyszłą pracę.
           <br>
-          <br> Jestem osobą bardzo wytrwałą, lubiącą wyzwania, nie mającą problemu z szybkim przyswajaniem wiedzy, dlatego
-          chciałabym podjąć współpracę z profesjonalistami, ludźmi zajmującymi się tym na co dzień, którzy wprowadzą mnie
-          do świata front-endu.
+          <br> Jestem osobą bardzo wytrwałą, lubiącą wyzwania, nie mającą problemu z szybkim przyswajaniem wiedzy, dlatego chciałabym
+          podjąć współpracę z profesjonalistami, ludźmi zajmującymi się tym na co dzień, którzy wprowadzą mnie do świata
+          front-endu.
           <br> Zapewniam, że warto postawić na pracę ze mną, gdyż z tej współpracy będziemy czerpać obopólne korzyści!
         </p>
       </div>
       <div class="col-md-12">
         <form action="files/CV.pdf" target="_blank">
-          <button type="submit" class="btn" id="cv">
+          <button type="submit" class="btn cv">
             Curriculum Vitae
           </button>
         </form>
       </div>
     </div>
-  </div>
+  </article>
   <!-- End of about me section -->
   <!-- My skills -->
-  <div class="row text-center" id="technologies">
-    <div class="row" id="skills">
-      <h2 class="mySkills">
-        - Znam -
-      </h2>
+  <section class="row text-center" id="technologies">
+    <h2 class="mySkills">
+      - Znam -
+    </h2>
+    <div class="row skills">
       <div class="thumbnail thu">
         <div class="caption">
           <h4>
@@ -158,7 +158,7 @@
         <img src="images/jquery.png" alt="jQuery" class="pic">
       </div>
     </div>
-    <div class="row" id="skills2">
+    <div class="row skills2">
       <div class="thumbnail thu">
         <div class="caption">
           <h4>
@@ -208,10 +208,10 @@
         <img src="images/photoshop.png" alt="Photoshop" class="pic">
       </div>
     </div>
-    <div class="row" id="skills3">
-      <h2 class="mySkills">
-        - Aktualnie poznaję -
-      </h2>
+    <h2 class="mySkills">
+      - Aktualnie poznaję -
+    </h2>
+    <div class="row skills3">
       <div class="thumbnail thu">
         <div class="caption">
           <h4>
@@ -225,13 +225,13 @@
         <img src="images/js.png" alt="JavaScript" class="pic">
       </div>
     </div>
-  </div>
+  </section>
   <!-- End of my skills section -->
   <!-- Portfolio -->
   <div class="row text-center" id="portfolio">
     <div class="col-md-12">
       <h2 class="mainHeader">
-        moje prace
+        Moje najnowsze prace
       </h2>
       <span class="titleDetail">
         <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
@@ -240,22 +240,66 @@
         <li>
           <div class="thumbnail2 thu">
             <div class="caption2">
-              <a href="../webpage1" target="_blank"><img src="images/goToPage.png" alt="Odwiedź stronę"></a>
-              <a href="https://github.com/katarzynakrol/example_page_1" target="_blank"><img src="images/GitHub2.png" alt="GitHub"></a>
+              <a href="../icePeopleFanpage" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/ice_people_fanpage" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
+            </div>
+            <img src="images/strona10.jpg" alt="Strona nr 1" class="webpage">
+          </div>
+          <div class="thumbnail2 thu">
+            <div class="caption2">
+              <a href="../ticTacToe" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/tic_tac_toe" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
+            </div>
+            <img src="images/strona9.jpg" alt="Strona nr 2" class="webpage">
+          </div>
+        </li>
+      </ul>
+      <h2 class="mainHeader">
+        Pozostałe prace
+      </h2>
+      <span class="titleDetail">
+        <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+      </span>
+      <ul>
+        <li>
+          <div class="thumbnail2 thu">
+            <div class="caption2">
+              <a href="../webpage1" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/example_page_1" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
             </div>
             <img src="images/strona2.jpg" alt="Strona nr 1" class="webpage">
           </div>
           <div class="thumbnail2 thu">
             <div class="caption2">
-              <a href="../kittens" target="_blank"><img src="images/goToPage.png" alt="Odwiedź stronę"></a>
-              <a href="https://github.com/katarzynakrol/example_page_js" target="_blank"><img src="images/GitHub2.png" alt="GitHub"></a>
+              <a href="../kittens" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/example_page_js" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
             </div>
             <img src="images/strona6.jpg" alt="Strona nr 2" class="webpage">
           </div>
           <div class="thumbnail2 thu">
             <div class="caption2">
-              <a href="../webpage2" target="_blank"><img src="images/goToPage.png" alt="Odwiedź stronę"></a>
-              <a href="https://github.com/katarzynakrol/example_page_2" target="_blank"><img src="images/GitHub2.png" alt="GitHub"></a>
+              <a href="../webpage2" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/example_page_2" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
             </div>
             <img src="images/strona1.jpg" alt="Strona nr 3" class="webpage">
           </div>
@@ -263,21 +307,31 @@
         <li>
           <div class="thumbnail2 thu">
             <div class="caption2">
-              <a href="../webpage3" target="_blank"><img src="images/goToPage.png" alt="Odwiedź stronę"></a>
-              <a href="https://github.com/katarzynakrol/example_page_3" target="_blank"><img src="images/GitHub2.png" alt="GitHub"></a>
+              <a href="../webpage3" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/example_page_3" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
             </div>
             <img src="images/strona3.jpg" alt="Strona nr 4" class="webpage">
           </div>
           <div class="thumbnail2 thu">
             <div class="caption2">
-              <a href="../shoppingList" target="_blank"><img src="images/goToPage.png" alt="Odwiedź stronę"></a>
-              <a href="https://github.com/katarzynakrol/shopping_list_js" target="_blank"><img src="images/GitHub2.png" alt="GitHub"></a>
+              <a href="../shoppingList" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
+              <a href="https://github.com/katarzynakrol/shopping_list_js" target="_blank">
+                <img src="images/GitHub2.png" alt="GitHub">
+              </a>
             </div>
             <img src="images/strona8.jpg" alt="Strona nr 5" class="webpage">
           </div>
           <div class="thumbnail2 thu">
             <div class="caption2">
-              <a href="images/wordpressStrona.png" target="_blank"><img src="images/goToPage.png" alt="Odwiedź stronę"></a>
+              <a href="images/wordpressStrona.png" target="_blank">
+                <img src="images/goToPage.png" alt="Odwiedź stronę">
+              </a>
             </div>
             <img src="images/strona5.jpg" alt="Strona Wordpress" class="webpage">
           </div>
@@ -287,14 +341,14 @@
   </div>
   <!-- End of portfolio section -->
   <!-- Sentence about me -->
-  <div class="row text-center" id="quot">
+  <aside class="row text-center quot">
     <div class="container">
-      <h1 class="quotText">
+      <h2 class="quotText">
         Jeżeli szukasz pracownika, który lubi chodzić do pracy, ponieważ z każdym dniem coraz bardziej fascynuje go to co robi, to
         <b>koniecznie</b> skontaktuj się ze mną!
-      </h1>
+      </h2>
     </div>
-  </div>
+  </aside>
   <!-- End of sentence about me -->
   <!-- Contact -->
   <div class="row text-center">
@@ -321,7 +375,7 @@
           </h3>
         </div>
         <div class="col-md-2">
-          <img src="images/writeIcon.png" alt="write" id="pen">
+          <img src="images/writeIcon.png" alt="write" class="pen">
         </div>
         <div class="col-md-6" id="contactForm">
           <form class="form" action="/main" method="POST">
@@ -365,7 +419,9 @@
   </footer>
   <!-- End of footer section -->
   <!-- Back to top button -->
-  <a href="javascript:scroll(0,0);"><img src="images/top.png" alt="top_button" class="top"></a>
+  <a href="javascript:scroll(0,0);">
+    <img src="images/top.png" alt="top_button" class="top">
+  </a>
 
 </body>
 
