@@ -1,5 +1,20 @@
 /* FONT: TYPE, COLOR AND SIZE */
 
+@font-face {
+  font-family: 'Scope One';
+  src: url('../fonts/ScopeOne-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: url('../fonts/PoiretOne-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('../fonts/ArchivoBlack-Regular.woff') format('woff');
+}
+
 .row,
 ul {
   margin: 0 auto;
@@ -34,7 +49,7 @@ hgroup>.position,
 #aboutMe,
 #contact,
 footer {
-  font-family: 'Scope One', serif;
+  font-family: 'Scope One';
 }
 
 header>hgroup>.name {
@@ -203,6 +218,10 @@ ul>li {
   display: none;
   z-index: 2;
   max-width: 50%;
+}
+
+.thu.thumbnail2>.caption2>a {
+  text-decoration: none;
 }
 
 .thu.thumbnail2>.caption2>a>img {
